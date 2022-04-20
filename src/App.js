@@ -1,6 +1,6 @@
 import './App.css';
 import MyNavBar from './components/MyNavbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './components/Home';
 import ProductPage from './components/Products';
 
@@ -12,6 +12,7 @@ function App() {
 
       <Router>
           <Routes>
+            <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/products" element={<ProductPage />} />
           </Routes>

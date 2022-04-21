@@ -3,6 +3,7 @@ import MyNavBar from './components/MyNavbar';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './components/Home';
 import ProductPage from './components/Products';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
             <Route path="/products" element={<ProductPage />} />
           </Routes>
         </Router>
+
+      <Footer />
 
     </div>
   );

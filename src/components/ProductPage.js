@@ -1,11 +1,13 @@
 import React from 'react';
+import ProductList from './ProductList';
 
 function ProductPage(props) {
     return (
         <div>
+             <br></br>
             <h1>Products</h1>
-            <div>Clothes</div>
-            <div>Shoes</div>
+            <ProductList />
+            
         </div>
     );
 }

@@ -1,0 +1,16 @@
+.product {
+    border: 4px solid #000000;
+    background-color: lightgray;
+    border-radius: 4px;
+    text-align: left;
+    padding-bottom: .25rem;
+}
+.product-image{
+    padding-top: .5rem;
+    border-radius: 8px;
+}
+.image {
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 20rem;
+    border-radius: 4px;
+}

@@ -39,6 +39,7 @@ function HomePage(props) {
                     We use only the finest materials, without using animal cruelty to get them, unlike much of our
                     competition.
                     Everything is hand crafted with meticulous care, no second-rate child labor here.</p>
+                    <br></br>
                 </div>
             </div>
         </div>

@@ -29,7 +29,7 @@ function HomePage(props) {
                 <br />Friendly</div>
                 <div class="col"><img src={require('../assets/images/moneyicon.png')} alt="Costs Less" width="70%"></img><br />Costs Less</div>
                 <div class="Text">
-                    <br></br><br></br><br></br>
+                <br></br>
                 <h2><br />Our goal.</h2>
                 <p>There is a seemingly endless and incessant pandering that other companies may partake in to get the
                     attention of the consumer,

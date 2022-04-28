@@ -1,9 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './HomePageStyles.css'
-import shoppingcartImage from './images/shoppingcart.svg';
+
+import shoppingcartImage from '../assets/images/shoppingcart.svg';
+import { Navigate, useNavigate  } from 'react-router-dom';
 
 function HomePage(props) {
+    const navigate = useNavigate();
     return (
         <div class = "HomePage">
             <br></br>
@@ -13,7 +16,7 @@ function HomePage(props) {
             <br></br>
             
             <div class="GridButton"><button class="button button1"
-                onclick="" type="button">
+                onClick={() => { navigate("/products") }} type="button">
                 View our products.</button><br />
             </div>
             <br></br>
@@ -21,11 +24,12 @@ function HomePage(props) {
             <div class = "row">
                 <div class="col"><img src={shoppingcartImage} alt="Shopping Cart" width="70%"></img><br />Easy
                 Checkout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                <div class="col"><img src={require('./images/shirticon.png')} alt="Shirt" width="70%"></img><br />Looks Great</div>
-                <div class="col"><img src={require('./images/cycleicon.png')} alt="Environmental Friendly" width="70%"></img><br />Environmental
+                <div class="col"><img src={require('../assets/images/shirticon.png')} alt="Shirt" width="70%"></img><br />Looks Great</div>
+                <div class="col"><img src={require('../assets/images/cycleicon.png')} alt="Environmental Friendly" width="70%"></img><br />Environmental
                 <br />Friendly</div>
-                <div class="col"><img src={require('./images/moneyicon.png')} alt="Costs Less" width="70%"></img><br />Costs Less</div>
+                <div class="col"><img src={require('../assets/images/moneyicon.png')} alt="Costs Less" width="70%"></img><br />Costs Less</div>
                 <div class="Text">
+                    <br></br><br></br><br></br>
                 <h2><br />Our goal.</h2>
                 <p>There is a seemingly endless and incessant pandering that other companies may partake in to get the
                     attention of the consumer,

@@ -1,0 +1,130 @@
+[
+    {
+        "title": "JynX Insignia T-Shirt",
+        "price": "$29",
+        "colors":"black",
+        "description": "Tee inscribed with JynX insignia.",
+        "item-type": "shirt",
+        "material": "cotton"
+    },
+    {   
+        "title": "JynX Insignia Hoodie",
+        "price": "$49",
+        "colors": "black",
+        "description": "Hoodie inscribed with JynX insignia.",
+        "item-type": "hoodie",
+        "material": "cotton"
+    },
+    {
+        "title": "JynX Insignia Joggers",
+        "price": "$39",
+        "colors":"black",
+        "description": "Joggers inscribed with JynX insignia.",
+        "item-type": "joggers",
+        "material": "cotton"
+    },
+    {
+    "title": "JynX Insignia Shorts",
+        "price": "$29",
+        "colors":"black",
+        "description": "Shorts inscribed with JynX insignia.",
+        "item-type": "shorts",
+        "material": "cotton"
+    },
+    
+    {
+        "title": "JynX Insignia Boxers",
+        "price": "$19",
+        "colors":"black",
+        "description": "Pack of 7 boxers inscribed with JynX insignia.",
+        "item-type": "boxers",
+        "material": "cotton"
+    },
+   
+    {
+        "title": "Frog Tears JynX T-Shirt",
+        "price": "$29",
+        "colors":"black",
+        "description": "Black tee covered in unique art designed by our team.",
+        "item-type": "shirt",
+        "material": "cotton"
+    },
+    {
+        "title": "Frog Tears JynX Hoodie",
+        "price": "$49",
+        "colors":"black",
+        "description": "Black hoodie covered in unique art designed by our team.",
+        "item-type": "hoodie",
+        "material": "cotton"
+    }, 
+    {
+        "title": "JynX Insignia Socks",
+        "price": "$19",
+        "colors":"black",
+        "description": "Pack of 7 pairs of socks inscribed with JynX insignia.",
+        "item-type": "socks",
+        "material": "cotton"
+    }, 
+    {
+        "title": "JynX Gorilla Warfare Socks",
+        "price": "$19",
+        "colors":"red",
+        "description": "Socks covered with gorillas and bananas.",
+        "item-type": "socks",
+        "material": "cotton"
+    },
+
+
+    {
+        "title": "JynX Insignia Beanie",
+        "price": "$29",
+        "colors":"black",
+        "description": "Beanie inscribed with JynX insignia.",
+        "item-type": "beanie",
+        "material": "cotton"
+    },
+    {
+        "title": "JynX Torn Hat",
+        "price": "$29",
+        "colors":"black",
+        "description": "Black hat embroidered with JynX logo.",
+        "item-type": "hat",
+        "material": "cotton"
+    },
+   
+
+
+    {
+        "title": "Nike x JynX AJ1",
+        "price": "$159",
+        "colors":"white",
+        "description": "A collab between Nike AJ1s and us. Giving you a familiar shoe with a bold twist.",
+        "item-type": "shoes",
+        "material": "premium leather"
+    },
+    {
+        "title": "OF x LV x JynX Simpsons",
+        "price": "$99",
+        "colors":"white",
+        "description": "Unique shoes that bring out the best in you.",
+        "item-type": "shoes",
+        "material": "suede"
+    },
+
+
+    {
+        "title": "JynX Watch",
+        "price": "$999",
+        "material": "gold",
+        "description": "Luxurious watch with diamond embezzled JynX logo that signifies others of your wealthyness.",
+        "item-type": "watch"
+    },
+    {
+        "title": "JynX Wallet",
+        "price": "$79",
+        "material":"demascus steel",
+        "description": "Slim RFID blocking wallet made of unique strong and lightweight materials.",
+        "item-type": "wallet"
+    }
+
+]

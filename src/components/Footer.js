@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './HomePageStyles.css'
-import shoppingcartImage from './images/shoppingcart.svg';
+import shoppingcartImage from '../assets/images/shoppingcart.svg';
 
 function Footer(props) {
     return (

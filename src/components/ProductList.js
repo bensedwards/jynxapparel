@@ -2,6 +2,7 @@ import React, { useState, Component } from 'react'  // can be removed if using R
 //import './Movie.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import myProductList from '../assets/data/ProductList.json';
+import myCartList from '../assets/data/CartList.json';
 import Product from './Product';
 
 function ProductList() {
@@ -18,6 +19,18 @@ function ProductList() {
         updateProductList(newList);
     }
 
+    const [cartList, updateCartList] = useState(myCartList);
+
+    function addProductToCart(productId){
+        const newCartList = cartList.concat(
+            (p) => {
+                console.log(p.id);
+                return (p.id == productId);
+            }
+        );
+        updateCartList(newCartList);
+    }
+
     return (
         <div>
             <div class="container-lg">
@@ -26,8 +39,9 @@ function ProductList() {
             {
                 allProducts.map(
                     (product) => {
-                    return (<Product image = {product.image} title={product.title} price={product.price} color={product.colors} description={product.description} id={product.id} key={product.id}
-                    handleDel={delProduct}/>);
+                    return (<Product image = {product.image} title={product.title} price={product.price} color={product.colors} description={product.description} material={product.material} id={product.id} key={product.id}
+                        addToCart={addProductToCart} 
+                        handleDel={delProduct}/>);
                     }
                 )
             }

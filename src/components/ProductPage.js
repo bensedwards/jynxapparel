@@ -1,9 +1,10 @@
 import React from 'react';
 import ProductList from './ProductList';
+import './ProductStyle.css'
 
 function ProductPage(props) {
     return (
-        <div>
+        <div class = "ProductPage">
              <br></br>
             <h1>Products</h1>
             <ProductList />

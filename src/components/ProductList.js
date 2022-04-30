@@ -3,7 +3,10 @@ import React, { useState, Component } from 'react'  // can be removed if using R
 import 'bootstrap/dist/css/bootstrap.css';
 import myProductList from '../assets/data/ProductList.json';
 import myCartList from '../assets/data/CartList.json';
-import Product from './Product';
+import Product from './Product'; 
+var cartList;
+export{cartList}; 
+
 
 function ProductList() {
 
@@ -30,6 +33,8 @@ function ProductList() {
         );
         updateCartList(newCartList);
     }
+   
+
 
     return (
         <div>

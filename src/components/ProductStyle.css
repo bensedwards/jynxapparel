@@ -17,6 +17,16 @@
     max-width: 20rem;
     border-radius: 3px;
 }
+.product-details {
+    font-size:15px
+}
+.product-description{
+    padding-bottom: .5rem
+}
+.product-color{
+    padding-bottom: .5rem
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
 .ProductPage {
   font-family: 'Oxygen', sans-serif;

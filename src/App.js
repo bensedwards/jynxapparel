@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import HomePage from './components/Home';
 import ProductPage from './components/ProductPage';
 import Footer from './components/Footer';
+import ContactUsPage from './components/ContactUsPage';
+import CartPage from './components/CartPage';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
             <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/products" element={<ProductPage />} />
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/contact" element={<ContactUsPage />} />
           </Routes>
         </Router>
 

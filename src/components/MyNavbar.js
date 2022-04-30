@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav} from 'react-bootstrap';
+import shoppingcartImage from '../assets/images/shoppingcart.svg';
+import './NavbarStyles.css'
 
 export default class MyNavBar extends Component {
   render() {
@@ -23,6 +25,7 @@ export default class MyNavBar extends Component {
               <Nav.Link href="#publications">Publications</Nav.Link>
               */}
             </Nav>
+            <span class="navbar-text">  <img className='shoppingcart-image' src={shoppingcartImage} alt="Shopping Cart" width="30"></img>View Cart</span>
           </Navbar.Collapse>
         </Container>
       </Navbar>

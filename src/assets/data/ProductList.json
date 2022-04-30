@@ -40,20 +40,20 @@
     {
         "title": "JynX Insignia Boxers",
         "price": "$19",
-        "colors":"black",
+        "colors":"Black",
         "description": "Pack of 7 boxers inscribed with JynX insignia.",
         "itemType": "boxers",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "5"
     },
    
     {
         "title": "Frog Tears JynX T-Shirt",
         "price": "$29",
-        "colors":"black",
+        "colors":"Black",
         "description": "Black tee covered in unique art designed by our team.",
         "itemType": "shirt",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "6"
     },
     {
@@ -88,10 +88,10 @@
     {
         "title": "JynX Insignia Beanie",
         "price": "$29",
-        "colors":"black",
+        "colors":"White",
         "description": "Beanie inscribed with JynX insignia.",
         "itemType": "beanie",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "10"
     },
     {
@@ -129,7 +129,8 @@
     {
         "title": "JynX Watch",
         "price": "$999",
-        "material": "gold",
+        "material": "Premium Leather, Gold, and Titanium",
+        "colors":"Walnut",
         "description": "Luxurious watch with diamond embezzled JynX logo that signifies others of your wealthyness.",
         "itemType": "watch",
         "id": "14"
@@ -137,8 +138,9 @@
     {
         "title": "JynX Wallet",
         "price": "$79",
-        "material":"demascus steel",
-        "description": "Slim RFID blocking wallet made of unique strong and lightweight materials.",
+        "material":"Premium Leather",
+        "colors":"Walnut",
+        "description": "Slim RFID blocking wallet made of the most premium leather. Inscribed with the JynX insignia, showing your level of class.",
         "itemType": "wallet",
         "id": "15"
     }

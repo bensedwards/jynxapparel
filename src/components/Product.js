@@ -18,7 +18,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 
   return (
     <button
-      type="button" class="btn btn-dark btn-sm"
+      type="button" class="btn btn-dark btn-sm w-100"
       style={{ backgroundColor: isCurrentEventKey ? 'grey' : 'black' }}
       onClick={decoratedOnClick}
     >
@@ -46,12 +46,13 @@ export default function Product({ image, title, price, color, description, itemT
           <Accordion defaultActiveKey="-1" flush>
             <Card>
               <Card.Header> 
-                <ContextAwareToggle eventKey="0">View More Details </ContextAwareToggle>
-                <button type="button" class="btn btn-dark btn-sm" onClick={
+                
+                <button type="button" class="btn btn-dark btn-sm btn-block w-100" onClick={
                   () => {
                     addToCart(id);
                   }
                   }>Add to Cart</button>
+                  <ContextAwareToggle eventKey="0">View More Details </ContextAwareToggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body> 

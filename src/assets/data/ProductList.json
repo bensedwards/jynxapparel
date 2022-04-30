@@ -2,38 +2,38 @@
     {
         "title": "JynX Insignia T-Shirt",
         "price": "$29",
-        "colors":"black",
+        "colors":"Black",
         "description": "Tee inscribed with JynX insignia.",
         "itemType": "shirt",
-        "material": "cotton",
+        "material": "Cotton",
         "image": "../assets/images/shirticon.png",
         "id": "1"
     },
     {   
         "title": "JynX Insignia Hoodie",
         "price": "$49",
-        "colors": "black",
+        "colors": "Black",
         "description": "Hoodie inscribed with JynX insignia.",
         "itemType": "hoodie",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "2"
     },
     {
         "title": "JynX Insignia Joggers",
         "price": "$39",
-        "colors":"black",
+        "colors":"Black",
         "description": "Joggers inscribed with JynX insignia.",
         "itemType": "joggers",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "3"
     },
     {
     "title": "JynX Insignia Shorts",
         "price": "$29",
-        "colors":"black",
+        "colors":"Black",
         "description": "Shorts inscribed with JynX insignia.",
         "itemType": "shorts",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "4"
     },
     
@@ -59,27 +59,27 @@
     {
         "title": "Frog Tears JynX Hoodie",
         "price": "$49",
-        "colors":"black",
+        "colors":"Black",
         "description": "Black hoodie covered in unique art designed by our team.",
         "itemType": "hoodie",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "7"
     }, 
     {
         "title": "JynX Insignia Socks",
         "price": "$19",
-        "colors":"black",
+        "colors":"Black",
         "description": "Pack of 7 pairs of socks inscribed with JynX insignia.",
         "itemType": "socks",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "8"
     }, 
     {
         "title": "JynX Gorilla Warfare Socks",
         "price": "$19",
-        "colors":"red",
+        "colors":"Red",
         "description": "Socks covered with gorillas and bananas.",
-        "itemType": "socks",
+        "itemType": "Socks",
         "material": "cotton",
         "id": "9"
     },
@@ -97,10 +97,10 @@
     {
         "title": "JynX Torn Hat",
         "price": "$29",
-        "colors":"black",
+        "colors":"Dirty Black",
         "description": "Black hat embroidered with JynX logo.",
         "itemType": "hat",
-        "material": "cotton",
+        "material": "Dyed Denim",
         "id": "11"
     },
    
@@ -109,19 +109,19 @@
     {
         "title": "Nike x JynX AJ1",
         "price": "$159",
-        "colors":"white",
+        "colors":"White",
         "description": "A collab between Nike AJ1s and us. Giving you a familiar shoe with a bold twist.",
         "itemType": "shoes",
-        "material": "premium leather",
+        "material": "Premium Leather",
         "id": "12"
     },
     {
         "title": "OF x LV x JynX Simpsons",
         "price": "$99",
-        "colors":"white",
+        "colors":"White",
         "description": "Unique shoes that bring out the best in you.",
         "itemType": "shoes",
-        "material": "suede",
+        "material": "Suede",
         "id": "13"
     },
 

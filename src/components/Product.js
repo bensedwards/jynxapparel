@@ -56,12 +56,14 @@ export default function Product({ image, title, price, color, description, itemT
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body> 
+                <div className='product-details'>
                 <div className="product-description" class = "product-description">
                   Description: {description}</div>
                   <div className="product-color" class = "product-color">
                   Colors Available: {color}
                   </div>
                   Material: {material}
+                </div>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>

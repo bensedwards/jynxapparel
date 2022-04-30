@@ -13,7 +13,7 @@ function ProductList() {
         const newList = allProducts.filter(
             (p) => {
                 console.log(p.id);
-                return (p.id != productId);
+                return (p.id !== productId);
             }
         );
         updateProductList(newList);
@@ -25,7 +25,7 @@ function ProductList() {
         const newCartList = cartList.concat(
             (p) => {
                 console.log(p.id);
-                return (p.id == productId);
+                return (p.id === productId);
             }
         );
         updateCartList(newCartList);

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "JynX Insignia Beanie",
+        "price": "$29",
+        "colors":"White",
+        "description": "Beanie inscribed with JynX insignia.",
+        "itemType": "beanie",
+        "material": "Cotton",
+        "id": "11"
+    },
+    {
+        "title": "JynX Torn Hat",
+        "price": "$29",
+        "colors":"Dirty Black",
+        "description": "Black hat embroidered with JynX logo.",
+        "itemType": "hat",
+        "material": "Dyed Denim",
+        "id": "12"
+    },
+   
+    {
+        "title": "Nike x JynX AJ1",
+        "price": "$159",
+        "colors":"White",
+        "description": "A collab between Nike AJ1s and us. Giving you a familiar shoe with a bold twist.",
+        "itemType": "shoes",
+        "material": "Premium Leather",
+        "id": "13"
+    },
+    {
+        "title": "OF x LV x JynX Simpsons",
+        "price": "$99",
+        "colors":"White",
+        "description": "Unique shoes that bring out the best in you.",
+        "itemType": "shoes",
+        "material": "Suede",
+        "id": "14"
+    },
+
+
+    {
+        "title": "JynX Watch",
+        "price": "$999",
+        "material": "Premium Leather, Gold, and Titanium",
+        "colors":"Walnut",
+        "description": "Luxurious watch with diamond embezzled JynX logo that signifies others of your wealthyness.",
+        "itemType": "watch",
+        "id": "15"
+    },
+    {
+        "title": "JynX Wallet",
+        "price": "$79",
+        "material":"Premium Leather",
+        "colors":"Walnut",
+        "description": "Slim RFID blocking wallet made of the most premium leather. Inscribed with the JynX insignia, showing your level of class.",
+        "itemType": "wallet",
+        "id": "16"
+    },
+    {
+        "title": "JynX x The Law Basketball",
+        "price": "$39",
+        "material": "Premium Leather and Rubber",
+        "colors":"Black",
+        "description": "The best basketball you'll ever own.",
+        "itemType": "ball",
+        "id": "17"
+    },
+    {
+        "title": "JynX Headband",
+        "price": "$19",
+        "material": "Cotton",
+        "colors":"Black",
+        "description": "The best headband you'll ever own.",
+        "itemType": "hat",
+        "id": "18"
+    },
+    {
+        "title": "JynX Bottle",
+        "price": "$19",
+        "material": "Stainless Steel",
+        "colors":"Black",
+        "description": "The best bottle you'll ever own.",
+        "itemType": "bottle",
+        "id": "19"
+    },
+    {
+        "title": "JynX Phone Case",
+        "price": "$19",
+        "material": "Leather",
+        "colors":"Gray",
+        "description": "The best case you'll ever own.",
+        "itemType": "phonecase",
+        "id": "20"
+    }
+
+]

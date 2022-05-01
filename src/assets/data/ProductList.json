@@ -82,67 +82,6 @@
         "itemType": "Socks",
         "material": "cotton",
         "id": "9"
-    },
-
-
-    {
-        "title": "JynX Insignia Beanie",
-        "price": "$29",
-        "colors":"White",
-        "description": "Beanie inscribed with JynX insignia.",
-        "itemType": "beanie",
-        "material": "Cotton",
-        "id": "10"
-    },
-    {
-        "title": "JynX Torn Hat",
-        "price": "$29",
-        "colors":"Dirty Black",
-        "description": "Black hat embroidered with JynX logo.",
-        "itemType": "hat",
-        "material": "Dyed Denim",
-        "id": "11"
-    },
-   
-
-
-    {
-        "title": "Nike x JynX AJ1",
-        "price": "$159",
-        "colors":"White",
-        "description": "A collab between Nike AJ1s and us. Giving you a familiar shoe with a bold twist.",
-        "itemType": "shoes",
-        "material": "Premium Leather",
-        "id": "12"
-    },
-    {
-        "title": "OF x LV x JynX Simpsons",
-        "price": "$99",
-        "colors":"White",
-        "description": "Unique shoes that bring out the best in you.",
-        "itemType": "shoes",
-        "material": "Suede",
-        "id": "13"
-    },
-
-
-    {
-        "title": "JynX Watch",
-        "price": "$999",
-        "material": "Premium Leather, Gold, and Titanium",
-        "colors":"Walnut",
-        "description": "Luxurious watch with diamond embezzled JynX logo that signifies others of your wealthyness.",
-        "itemType": "watch",
-        "id": "14"
-    },
-    {
-        "title": "JynX Wallet",
-        "price": "$79",
-        "material":"Premium Leather",
-        "colors":"Walnut",
-        "description": "Slim RFID blocking wallet made of the most premium leather. Inscribed with the JynX insignia, showing your level of class.",
-        "itemType": "wallet",
-        "id": "15"
     }
 
 ]

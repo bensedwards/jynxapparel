@@ -30,22 +30,22 @@ function getImage(image) {
         case "9":
             return require("./gorillasocks2.png");
             break;
-        case "10":
+        case "11":
             return require("./jynxbeanie.png");
             break;
-        case "11":
+        case "12":
             return require("./jynxtornhat2.png");
             break;
-        case "12":
+        case "13":
             return require("./nikejynxaj1v2.png");
              break;
-        case "13":
+        case "14":
             return require("./jxoflvsimpsons2.png");
             break;
-        case "14":
+        case "15":
             return require("./jynxwatch.png");
             break;
-        case "15":
+        case "16":
             return require("./jynxwallet.png");
             break;
         default:

@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav} from 'react-bootstrap';
 import shoppingcartImage from '../assets/images/shoppingcart.svg';
-import './NavbarStyles.css'
+import './NavbarStyles.css';
+import { Navigate, useNavigate } from 'react-router-dom';
+    
 
 export default class MyNavBar extends Component {
   render() {
+    
     return (
       <Navbar bg="light" expand="lg" sticky="top" variant="light">
         <Container>
@@ -25,7 +28,7 @@ export default class MyNavBar extends Component {
               <Nav.Link href="#publications">Publications</Nav.Link>
               */}
             </Nav>
-            <span class="navbar-text">  <img className='shoppingcart-image' src={shoppingcartImage} alt="Shopping Cart" width="30"></img>View Cart</span>
+            
           </Navbar.Collapse>
         </Container>
       </Navbar>

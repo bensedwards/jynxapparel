@@ -17,24 +17,15 @@ function CheckOutPage(props) {
 
 
             <div class="GridButton"><button class="button button1"
-                onClick={() => { navigate("/products") }} type="button">
-                View our products.</button><br />
+                onClick={() => { navigate("/cart") }} type="button">
+                Go Back.</button><br />
 
 
             </div>
             <br></br>
-            <div class="container">
+            <div class="container" className='checkoutcontainer'>
                 <div class="row">
-                    <div class="col"><img src={shoppingcartImage} alt="Shopping Cart" width="70%"></img><br />Easy
-                        Checkout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="col"><img src={require('../assets/images/shirticon.png')} alt="Shirt" width="70%"></img><br />Looks Great</div>
-                    <div class="col"><img src={require('../assets/images/cycleicon.png')} alt="Environmental Friendly" width="70%"></img><br />Environmental
-                        <br />Friendly</div>
-                    <div class="col"><img src={require('../assets/images/moneyicon.png')} alt="Costs Less" width="70%"></img><br />Costs Less</div>
-                    <div class="Text">
-                        <br></br>
-
-                    </div>
+                    
                     <div class="input-fields">
                         <div class="column-1">
 
@@ -63,6 +54,18 @@ function CheckOutPage(props) {
                             <label for="cardnumber">Card Number</label>
                             <input type="password" id="cardnumber" placeholder="Enter a 16 digit number" />
 
+                           
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div><br></br><br></br></div>
+                <div class="container" className='checkoutcontainer'>
+                <div class="row">
+                    
+                    <div class="input-fields">
+                        <div class="column-1">
+                            
                             <h3>Billing Address</h3>
                             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
 
@@ -91,7 +94,14 @@ function CheckOutPage(props) {
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
             </div>
+            
     );
 }
 

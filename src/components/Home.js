@@ -1,11 +1,20 @@
-import React from 'react';
+import React , { useState, Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import './HomePageStyles.css'
+import './HomePageStyles.css';
 
 import shoppingcartImage from '../assets/images/shoppingcart.svg';
 import { Navigate, useNavigate  } from 'react-router-dom';
+import {Carousel} from 'react-bootstrap';
+
 
 function HomePage(props) {
+
+        const [index, setIndex] = useState(0);
+      
+        const handleSelect = (selectedIndex, e) => {
+          setIndex(selectedIndex);
+        };
+
     const navigate = useNavigate();
     return (
         <div class = "HomePage">
@@ -17,8 +26,52 @@ function HomePage(props) {
             
             <div class="GridButton"><button class="button button1"
                 onClick={() => { navigate("/products") }} type="button">
-                View our products.</button><br />
+                View our products.</button><br /><br></br>
             </div>
+            <div class = 'container'>
+            <div className="productshowing">
+
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          src={require('../assets/images/jynxhoodie.png')}
+          className="d-block w-100"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>JynX Insignia Hoodie</h3>
+          <p>Hoodie inscribed with JynX insignia.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={require('../assets/images/jynxwatch.png')}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>JynX Watch</h3>
+          <p>Luxurious watch with diamond embezzled JynX logo that signifies others of your wealthyness.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={require('../assets/images/jynxwallet.png')}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>JynX Wallet</h3>
+          <p>
+          Slim RFID blocking wallet made of the most premium leather. Inscribed with the JynX insignia, showing your level of class.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+            </div></div>
             <br></br>
         <div class="container">
             <div class = "row">

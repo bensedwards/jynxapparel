@@ -14,7 +14,7 @@ function CartPage(props) {
             <h1>JynX Apparel</h1>
             <br></br>
             <h3> You'll feel as good as you look.</h3>
-            <div><button type="button" class="btn btn-dark btn-sm btn-block w-100" onClick={
+            <div><button type="button" class="btn btn-dark btn-sm btn-block w-50" onClick={
                   () => {
                   navigate("/checkout")
                   }

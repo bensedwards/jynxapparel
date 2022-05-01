@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
 .CheckOutPage {
+    font-family: 'Oxygen', sans-serif;
     display: -ms-flexbox; /* IE10 */
-    display: flex;
+    
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    margin: 0 -16px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   .col-25 {
@@ -27,11 +32,12 @@
     padding: 0 16px;
   }
   
-  .container {
+  .checkoutcontainer {
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
+    padding-bottom: 1rem;
   }
   
   input[type=text] {
@@ -53,7 +59,7 @@
     font-size: 24px;
   }
   
-  .btn {
+  .btncheckoutpage {
     background-color: #04AA6D;
     color: white;
     padding: 12px;
@@ -65,7 +71,7 @@
     font-size: 17px;
   }
   
-  .btn:hover {
+  .btncheckoutpage:hover {
     background-color: #45a049;
   }
   

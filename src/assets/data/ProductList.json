@@ -80,8 +80,17 @@
         "colors":"Red",
         "description": "Socks covered with gorillas and bananas.",
         "itemType": "Socks",
-        "material": "cotton",
+        "material": "Cotton",
         "id": "9"
+    },
+    {
+        "title": "JynX Basketball Jersey",
+        "price": "$59",
+        "colors":"Black",
+        "description": "JynX's team's, The Law, official jersey.",
+        "itemType": "Socks",
+        "material": "Cotton",
+        "id": "10"
     }
 
 ]

@@ -30,6 +30,9 @@ function getImage(image) {
         case "9":
             return require("./gorillasocks2.png");
             break;
+        case "10":
+            return require("./jynx_the_law_jersey.png");
+            break;
         case "11":
             return require("./jynxbeanie.png");
             break;
@@ -47,6 +50,12 @@ function getImage(image) {
             break;
         case "16":
             return require("./jynxwallet.png");
+            break;
+        case "17":
+            return require("./jynx_x_the_law_basketball.png");
+            break;
+        case "18":
+            return require("./jynx_headband.png");
             break;
         default:
             return require("./imagenotfound.png");

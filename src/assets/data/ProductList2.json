@@ -55,6 +55,24 @@
         "description": "Slim RFID blocking wallet made of the most premium leather. Inscribed with the JynX insignia, showing your level of class.",
         "itemType": "wallet",
         "id": "16"
+    },
+    {
+        "title": "JynX x The Law Basketball",
+        "price": "$39",
+        "material": "Premium Leather and Rubber",
+        "colors":"Black",
+        "description": "The best basketball you'll ever own.",
+        "itemType": "ball",
+        "id": "17"
+    },
+    {
+        "title": "JynX Headband",
+        "price": "$19",
+        "material": "Cotton",
+        "colors":"Black",
+        "description": "The best headband you'll ever own.",
+        "itemType": "hat",
+        "id": "18"
     }
 
 ]

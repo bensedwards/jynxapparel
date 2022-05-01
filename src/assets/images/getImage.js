@@ -57,6 +57,12 @@ function getImage(image) {
         case "18":
             return require("./jynx_headband.png");
             break;
+        case "19":
+            return require("./jynx_bottle.png");
+            break;
+        case "20":
+            return require("./jynx_phone_case.png");
+            break;
         default:
             return require("./imagenotfound.png");
             break;

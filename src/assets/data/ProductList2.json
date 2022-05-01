@@ -73,6 +73,24 @@
         "description": "The best headband you'll ever own.",
         "itemType": "hat",
         "id": "18"
+    },
+    {
+        "title": "JynX Bottle",
+        "price": "$19",
+        "material": "Stainless Steel",
+        "colors":"Black",
+        "description": "The best bottle you'll ever own.",
+        "itemType": "bottle",
+        "id": "19"
+    },
+    {
+        "title": "JynX Phone Case",
+        "price": "$19",
+        "material": "Leather",
+        "colors":"Gray",
+        "description": "The best case you'll ever own.",
+        "itemType": "phonecase",
+        "id": "20"
     }
 
 ]

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav} from 'react-bootstrap';
 import shoppingcartImage from '../assets/images/shoppingcart.svg';
-import './NavbarStyles.css';
+//import './NavbarStyles.css';
 import { Navigate, useNavigate } from 'react-router-dom';
     
 

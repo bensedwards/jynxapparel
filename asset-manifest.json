@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jynxapparel/static/css/main.30187962.css",
-    "main.js": "/jynxapparel/static/js/main.c0415a9a.js",
+    "main.js": "/jynxapparel/static/js/main.47e5feb3.js",
     "static/js/787.a8227f76.chunk.js": "/jynxapparel/static/js/787.a8227f76.chunk.js",
     "static/media/jynx_x_the_law_basketball.png": "/jynxapparel/static/media/jynx_x_the_law_basketball.2b2c9a5fe20ce556f448.png",
     "static/media/jynxhoodie.png": "/jynxapparel/static/media/jynxhoodie.180321f8cdc68196f146.png",
@@ -28,11 +28,11 @@
     "static/media/shoppingcart.svg": "/jynxapparel/static/media/shoppingcart.8b70f0673629a1f7c856a66cdb2cf6db.svg",
     "index.html": "/jynxapparel/index.html",
     "main.30187962.css.map": "/jynxapparel/static/css/main.30187962.css.map",
-    "main.c0415a9a.js.map": "/jynxapparel/static/js/main.c0415a9a.js.map",
+    "main.47e5feb3.js.map": "/jynxapparel/static/js/main.47e5feb3.js.map",
     "787.a8227f76.chunk.js.map": "/jynxapparel/static/js/787.a8227f76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30187962.css",
-    "static/js/main.c0415a9a.js"
+    "static/js/main.47e5feb3.js"
   ]
 }
